@@ -1,4 +1,4 @@
-import React,{useRef,useState,useEffect} from 'react'
+import React,{useRef} from 'react'
 import "./blogcss.css"
 
 import useWebAnimations from "@wellyshen/use-web-animations";
@@ -8,7 +8,7 @@ const Blogg = () => {
 
 
     let one = useRef(null)
-    const { ref, playState, getAnimation } = useWebAnimations({
+    const { ref } = useWebAnimations({
 
         keyframes: [{transform:'translate(0,0)',opacity:1},
             { transform: "translate(100px,-500px)",opacity:0},

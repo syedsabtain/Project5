@@ -25,8 +25,8 @@ function App() {
             <div className='bg-image  text-center'>
                 {/* navbar section */}
                 <nav class="navbar navbar-expand-lg shadow-lg fixed-top navbar-dark bg-navbar">
-                    <a class="  font-style text-white mr-5">illustration.com</a>
-                    <button
+                    <span  class="  font-style text-white mr-5">illustration.com</span> 
+                    <span
                         class="navbar-toggler navlink6"
                         type="button"
                         data-toggle="collapse"
@@ -35,19 +35,19 @@ function App() {
                         aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </span>
                     <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
                         <ul class="navbar-nav ">
                             <li class="nav-item active mr-2">
-                                <a class="nav-link navlink3" href="#">Home
+                                <span  class="nav-link navlink3" href="#">Home
                                     {/* <span class="sr-only">(current)</span> */}
-                                </a>
+                                </span> 
                             </li>
                             <li class="nav-item mr-2">
-                                <a class="nav-link navlink4" href="#">Illustrations</a>
+                                <span  class="nav-link navlink4" href="#">Illustrations</span> 
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navlink3" href="#">About</a>
+                                <span  class="nav-link navlink3" href="#">About</span> 
                             </li>
                             
                         </ul>
@@ -104,26 +104,26 @@ function App() {
                             <div class=" flex-center">
 
                                 {/* <!-- Facebook --> */}
-                                <a class="fb-ic mr-2">
+                                <span  class="fb-ic mr-2">
                                 <SocialMediaIconsReact borderColor="rgba(242,236,236,1)" borderWidth="2" borderStyle="solid" icon="facebook" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="20%"  size="52" />
-                                </a>
+                                </span> 
                                 {/* <!-- Twitter --> */}
-                                <a class="tw-ic mr-2">
+                                <span  class="tw-ic mr-2">
                                 <SocialMediaIconsReact borderColor="rgba(242,236,236,1)" borderWidth="2" borderStyle="solid" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="20%"  size="52" />
-                                </a>
+                                </span> 
                                
                                 {/* <!--Linkedin --> */}
-                                <a class="li-ic mr-2">
+                                <span  class="li-ic mr-2">
                                 <SocialMediaIconsReact borderColor="rgba(242,236,236,1)" borderWidth="2" borderStyle="solid" icon="linkedin" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="20%"  size="52" />
-                                </a>
+                                </span> 
                                 {/* <!--Instagram--> */}
-                                <a class="ins-ic mr-2">
+                                <span  class="ins-ic mr-2">
                                 <SocialMediaIconsReact borderColor="rgba(242,236,236,1)" borderWidth="2" borderStyle="solid" icon="instagram" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="20%"  size="52" />
-                                </a>
+                                </span> 
                                 {/* <!--Pinterest--> */}
-                                <a class="pin-ic mr-2">
+                                <span  class="pin-ic mr-2">
                                 <SocialMediaIconsReact borderColor="rgba(242,236,236,1)" borderWidth="2" borderStyle="solid" icon="pinterest-light" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(0,0,0,1)" iconSize="5" roundness="20%" size="52" />
-                                </a>
+                                </span> 
                             </div>
                         </div>
                         {/* <!-- Grid column --> */}
@@ -136,8 +136,8 @@ function App() {
 
                 {/* <!-- Copyright --> */}
                 <div class="footer-copyright pt-3 text-white text-center ">© 2020 Copyright:
-                    <a>
-                        Syed Sabtain</a>
+                    <span>
+                        Syed Sabtain</span>
                 </div>
                 {/* <!-- Copyright --> */}
 
