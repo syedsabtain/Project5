@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
-}
+.bg-image{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    background-image: url('./first/655.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 400px; */
+    /* width: 1500px; */
+    /* border: 1px solid black; */
+    /* margin:  0 auto; */
 }
+.text-custom{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
+.bg-image2{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-image: url('./first/2462.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    /* background-origin: padding-box; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+    /* width: 1000px; */
 }
+.second-imge{
 
-.App-link {
-  color: #61dafb;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
+.pd-second{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    padding-top: 150px;
+    
+
+}
+.navlink2{
+    transition: font-size 0.5s;
+}
+.navlink3{
+    transition: font-size 0.5s;
+}
+.navlink4{
+    transition: font-size 0.5s;
+}
+.navlink5{
+    transition: font-size 0.5s;
+}
+.bg-navbar{
+    /* background-image: linear-gradient(to left, #000428,#004e92); */
+
+    background-image: linear-gradient(to right, #43cea2 ,#185a9d);
+    
+}
+.navlink2:hover{
+    background-image: linear-gradient(to right, #06beb6, #48b1bf);
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    /* font-weight: bold; */
+    color:white;
+    
+}
+.navlink3:hover{
+    background-image: linear-gradient(to right, #02aab0, #00cdac);
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    /* font-weight: bold; */
+    color:white;
+    
+}
+.navlink4:hover{
+    background-image: linear-gradient(to right, #ff512f, #dd2476);
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    /* font-weight: bold; */
+    color:white;
+    
+    
+}
+.navlink6{
+    /* background-image: linear-gradient(to right, #ff512f, #dd2476); */
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    /* font-weight: bold; */
+    /* color:white!important; */
+    border-color: #ff522fad!important; 
+    border-width: 2px!important;
+    border-style: solid!important;
+    
+    
+    
+    
+}
+.navlink5:hover{
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    /* font-weight: bold ; */
+    color:white;
+    
+}
+.bg-colorr{
+
+    background-image: linear-gradient(to right, #43cea2 ,#185a9d);    
+}
+.page-footer{
+
+
+    background-image: linear-gradient(to right, #ff512f, #dd2476);
+    height: 120px;
+    padding-top: 15px;
+    /* padding-bottom: 10px; */
+}
+.font-style{
+
+    font-family: 'Aldrich';font-size: 28px;
+    /* background-image: linear-gradient(to right, #43cea2a8 ,#185b9d88);  */
+}
+div{
+    font-family: 'Aldrich';font-size: 22px;
+}
+.main-div{
+    height: 300px;
+    width: 400px!important;
+    margin:  0 auto;
+    /* background-image: linear-gradient(to right, #43cea2ce ,#185b9dd3); */
+    background-image: linear-gradient(to right, #ff522fee, #dd2477f1);
+    color:#f7f7f7;
+    border-radius: 40px;
+}
+.main-div h1{
+    font-weight: bolder;
+    padding-top: 30px;
+
 }
