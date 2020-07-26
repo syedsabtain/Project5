@@ -83,7 +83,7 @@ const ExpandedListItem = ({ index, onClick }) => {
               stagger="card-content"
               delayUntil={createCardFlipId(index)}
             >
-              <div className={ary[index],ary2[index]}>
+              <div className={ary[index]+" "+ary2[index]}>
               </div>
             </Flipped>
             <div className="description">
