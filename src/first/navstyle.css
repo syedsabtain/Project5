@@ -1,0 +1,177 @@
+.staggered-list-content {
+    width: 400px;
+    margin: 2rem auto;
+  }
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0;
+  }
+  .list li {
+    width: 100%;
+  }
+  .list li + li {
+    margin-top: 1rem;
+  }
+  .listItem {
+    width: 100%;
+    cursor: pointer;
+    /* background-color: #d0d0d0; */
+    /* overflow: hidden; */
+  }
+  .listItemContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+  }
+  .avatar1 {
+    width: 7rem;
+    height: 7rem;
+    /* border: 1px solid black; */
+    /* border-radius: 100px; */
+    /* background-color: grey; */
+    margin-right: 2rem;
+    background-image: url('slidelogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center top;
+    border-radius: 25px;
+  }
+  .avatar2 {
+    width: 7rem;
+    height: 7rem;
+    /* border: 1px solid black; */
+    /* border-radius: 100px; */
+    background-color: white;
+    /* background-color: #ff522fee; */
+    margin-right: 2rem;
+    background-image: url('blogging.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center top;
+    border-radius: 25px;
+  }
+  .avatar3 {
+    width: 7rem;
+    height: 7rem;
+    /* border: 1px solid black; */
+    /* border-radius: 100px; */
+    /* background-color: grey; */
+    margin-right: 2rem;
+    background-image: url('icon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center top;
+    border-radius: 25px;
+  }
+  .avatarExpanded1 {
+    background-image: url('slidelogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    width: 8rem;
+    height: 8rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+  .avatarExpanded2 {
+    background-image: url('blogging.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    width: 8rem;
+    height: 8rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+  .avatarExpanded3 {
+    background-image: url('icon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    width: 8rem;
+    height: 8rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+  }
+  .description > div {
+    background-color: white;
+    width: 14rem;
+    border-radius: 6px;
+    height: 0.5rem;
+    /* overflow:hidden; */
+  }
+  .description > div:nth-of-type(2) {
+    width: 11rem;
+  }
+  .description > div:nth-of-type(3) {
+    width: 8rem;
+  }
+  .description > div + div {
+    margin-top: 1rem;
+  }
+  .expandedListItem .description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .expandedListItem {
+    cursor: pointer;
+    /* background-color: #d0d0d0; */
+  }
+  .expandedListItemContent {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .additional-content {
+    width: 100%;
+    margin-top: 2rem;
+    /* overflow-y: scroll; */
+    color: white;
+  }
+  
+  .additional-content > div {
+    /* opacity: 0; */
+    /* border-radius: 3px; */
+    /* background-color: lightgray; */
+    /* height: 5rem; */
+  }
+  
+  /* content fade in animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animated-in .additional-content > div {
+    animation: fadeIn 0.4s forwards;
+  }
+  
+  .additional-content > div:nth-of-type(2) {
+    animation-delay: 0.15s;
+  }
+  .additional-content > div:nth-of-type(3) {
+    animation-delay: 0.3s;
+  }
+  .additional-content > div + div {
+    margin-top: 1rem;
+  }
