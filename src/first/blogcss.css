@@ -1,0 +1,36 @@
+.main{
+enable-background:new 0 0 1600 1200;
+}
+
+   .st0{fill:#E8E8E8;}
+	.st1{fill:#FFFFFF;stroke:#161616;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#161616;}
+	.st3{fill:#FFFFFF;}
+	.st4{opacity:0.4;fill:#3D3D3D;}
+	.st5{opacity:0.38;fill:#3D3D3D;}
+	.st6{opacity:0.42;fill:#3D3D3D;}
+	.st7{fill:none;stroke:#161616;stroke-width:16;stroke-miterlimit:10;}
+	.st8{fill:#333333;}
+	.st9{fill:#3F3F3F;}
+	.st10{fill:#5B5B5B;}
+	.st11{fill:#666666;}
+	.st12{fill:#494949;}
+	.st13{fill:#1E1E1E;}
+	.st14{fill:#303030;}
+	.st15{fill:#6C6C6D;}
+	.st16{fill:none;stroke:#161616;stroke-width:3;stroke-miterlimit:10;}
+	.st17{opacity:0.37;fill:#3D3D3D;}
+	.st18{opacity:0.5;fill:#3D3D3D;}
+	.st19{fill:#353535;}
+	.st20{opacity:0.32;fill:#3D3D3D;}
+	.st21{opacity:0.29;fill:#3D3D3D;}
+	.st22{opacity:0.48;fill:#3D3D3D;}
+	.st23{opacity:0.27;fill:#3D3D3D;}
+	.st24{opacity:0.36;fill:#3D3D3D;}
+    .st25{opacity:0.43;fill:#3D3D3D;}
+    .trans{
+        transform: translate(100px,100px);
+        transform: translate(0,0);
+        animation-duration: 1000s;
+        transition-delay: 1000s;
+    }
